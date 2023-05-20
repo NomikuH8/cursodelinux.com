@@ -42,7 +42,7 @@ const news = [
     heading:
       "Diolinux fica com medo de perder seu blog após o surgimento de cursodelinux.com",
     content:
-      '"Ih rapaz, agora tremi na base com esse site", diz para sua Alexa (estávamos ouvindo também)',
+      '"Ih rapaz, agora tremi na base com esse site", diz para sua Alexa (estávamos ouvindo também).',
   },
 ]
 
@@ -53,7 +53,7 @@ export default function Home() {
         <h1>Notícias</h1>
         {news.map((val) => (
           <>
-            <Card>
+            <Card key={val.heading}>
               {val.image && <img src={val.image} alt="imagem da noticia" />}
               <div>
                 <h3>{val.heading}</h3>
