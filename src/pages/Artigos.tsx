@@ -8,6 +8,12 @@ const artigos = [
       "https://endeavouros.com/wp-content/uploads/2019/08/EndeavourOS-logo.png",
     heading: "Como instalar EndeavourOS 2023",
   },
+  {
+    link: "como-instalar-aplicativos-no-arch-linux",
+    image:
+      "https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png",
+    heading: "Como instalar aplicativos no Arch Linux com pacman",
+  },
 ]
 
 export default function Artigos() {
