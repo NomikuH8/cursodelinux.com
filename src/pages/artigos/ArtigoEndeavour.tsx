@@ -15,7 +15,7 @@ export default function ArtigoEndeavour() {
         <p>
           Não é à toa que EndeavourOS é uma das distros mais populares no{" "}
           <a
-            href="reddit.com/r/unixporn"
+            href="https://reddit.com/r/unixporn"
             target="_blank"
             referrerPolicy="no-referrer">
             UnixPorn
