@@ -1,5 +1,8 @@
 import styled from "@emotion/styled"
 
+import propaganda1 from "../assets/propagandas/propaganda1.png"
+import propaganda2 from "../assets/propagandas/propaganda2.png"
+
 const news = [
   {
     image:
@@ -66,6 +69,9 @@ export default function Home() {
       </NoticiaDiv>
       <PropagandaDiv>
         <h1>Propagandas</h1>
+
+        <img src={propaganda1} alt="" />
+        <img src={propaganda2} alt="" />
       </PropagandaDiv>
     </HomeDiv>
   )
@@ -83,6 +89,13 @@ const NoticiaDiv = styled.div`
 
 const PropagandaDiv = styled.div`
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  img {
+    max-width: 100%;
+  }
 `
 
 const Card = styled.div`
