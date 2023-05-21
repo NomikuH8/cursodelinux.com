@@ -4,7 +4,6 @@ import ArtigoEndeavour from "./pages/artigos/ArtigoEndeavour"
 import ArtigoWrapper from "./wrappers/ArtigoWrapper"
 import MainWrapper from "./wrappers/MainWrapper"
 import Artigos from "./pages/Artigos"
-import Videos from "./pages/Videos"
 import About from "./pages/About"
 import Home from "./pages/Home"
 
@@ -15,7 +14,6 @@ function App() {
         <Routes>
           <Route element={<MainWrapper />}>
             <Route index element={<Home />} />
-            <Route path="videos" element={<Videos />} />
             <Route path="artigos" element={<Artigos />} />
             <Route path="sobre" element={<About />} />
 

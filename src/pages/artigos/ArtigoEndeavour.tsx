@@ -134,7 +134,7 @@ export default function ArtigoEndeavour() {
 
         <p>
           Após a instalação, nessa tela, é só reiniciar e você estará no
-          EndeavourOS, parabéns!
+          EndeavourOS. Parabéns, você conseguiu instalar EndeavourOS!
         </p>
 
         <img src={image7} alt="" />

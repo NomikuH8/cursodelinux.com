@@ -10,9 +10,6 @@ export default function MainWrapper() {
           <Link to={"/"}>
             <li>Início</li>
           </Link>
-          <Link to={"/videos"}>
-            <li>Vídeos</li>
-          </Link>
           <Link to={"/artigos"}>
             <li>Artigos</li>
           </Link>
