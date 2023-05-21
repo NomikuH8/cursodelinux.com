@@ -7,6 +7,7 @@ import Artigos from "./pages/Artigos"
 import About from "./pages/About"
 import Home from "./pages/Home"
 import ArtigoAplicativos from "./pages/artigos/ArtigoAplicativos"
+import ArtigoComandos from "./pages/artigos/ArtigoComandos"
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
               <Route
                 path="como-instalar-aplicativos-no-arch-linux"
                 element={<ArtigoAplicativos />}
+              />
+              <Route
+                path="comandos-importantes-linux"
+                element={<ArtigoComandos />}
               />
             </Route>
           </Route>

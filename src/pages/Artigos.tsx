@@ -14,6 +14,12 @@ const artigos = [
       "https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png",
     heading: "Como instalar aplicativos no Arch Linux com pacman",
   },
+  {
+    link: "comandos-importantes-linux",
+    image:
+      "https://cdn.freebiesupply.com/logos/large/2x/linux-tux-1-logo-png-transparent.png",
+    heading: "Comandos importantes do Linux",
+  },
 ]
 
 export default function Artigos() {
